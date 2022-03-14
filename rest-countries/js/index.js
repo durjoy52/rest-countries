@@ -9,3 +9,12 @@ const displayCountries = countries => {
     countriesField.innerHTML = countryHtml.join(' ')
 }
 
+const showCountry = country => {
+    console.log()
+    return `<div class ="country">
+    <h2>${country.name.common}</h2>
+    <img src="${country.flags.png}">
+    </div>`
+}
+allCountries()
+
