@@ -1,1 +1,14 @@
-
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.country img {
+  width: 200px;
+}
+.country {
+  border: 2px solid gainsboro;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: azure;
+}
